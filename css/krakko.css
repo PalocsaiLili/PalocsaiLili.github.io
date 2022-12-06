@@ -1,0 +1,190 @@
+﻿/* A k├Ânyvben nem minden tulajdons├ígra tudtunk kit├ęrni. Ez├ęrt a be├íll├şt├ísok mell├ę egy r├Âvid magyar├ízatot is ├şrtunk. */
+
+/* A h├ítt├ęrsz├şn be├íll├şt├ísa sz├╝rke sz├şnre*/
+html {background-color:lightblue;}
+
+/* A dokumentumt├Ârzs megjelen├ęs├ęnek be├íll├şt├ísa */
+body {
+	border-radius: 0 0 20px 20px;
+	margin-top:20px;  		/* fels┼Ĺ marg├│ */
+	margin-bottom:20px;	/* als├│ marg├│ */
+	padding-bottom: 50px;
+	/* bal ├ęs jobb marg├│ 'auto' be├íll├şt├ísa k├Âz├ępre igaz├şt├íst jelent */
+	margin-left:auto;		
+	margin-right:auto;	
+	/* k├Âz├ępre igaz├şt├ís v├ęge */
+	font-size:120%;		/* bet┼▒ m├ęrete */
+	width:80%;				/* sz├ęless├ęg */
+	font-family: Verdana, Arial, sans-serif;	/* bet┼▒t├şpus */
+	background-color:white;	/* h├ítt├ęrsz├şn */
+	border:1px solid black;	/* v├ękony, folytonos, feket szeg├ęly*/
+	box-shadow:5px 5px 20px black;	
+	/* fekete doboz ├írny├ęk. Jobbra vet├╝l 5 k├ępponttal, lefele 5 k├ępponttal, ├ęs 20 k├ęppontos az elmos├ís*/
+}
+
+/* bekezd├ęsek megjelen├ęs├ęnek be├íll├şt├ísa */
+ p {
+	 margin-left:20px;		/* bal marg├│ */
+	 margin-right:30px;		/* jobb marg├│ */
+ }
+ 
+/* felsorol├íslist├ík megjelen├ęs├ęnek be├íll├şt├ísa */
+ul {
+	background-color:black;	/* fekete h├ítt├ęrsz├şn*/
+	margin:0;				/* marg├│ lenull├íz├ísa */ 
+	padding:30px;			/* bels┼Ĺ kit├Âlt├ęs */
+}
+
+/* listaelemek megjelen├ęs├ęnek be├íll├şt├ísa */
+li {
+	list-style-image:url('../kepek/mancs.png');		/* egyedi felsorol├ísjel be├íll├şt├ísa */
+	color:white;		/* feh├ęr sz├Âvegsz├şn */
+	margin-left:40px;	/* bal marg├│ */
+	line-height:40px;	/* sor magass├íg├ínak be├íll├şt├ísa */
+	}
+
+/* 1-es c├şmsorok megjelen├ęs├ęnek be├íll├şt├ísa */
+h1 {
+	color:white;		/* feh├ęr sz├Âvegsz├şn */
+	/*border-bottom:10px solid darkred;*/	/*vastag, s├Ât├ętpiros als├│ szeg├ęly*/
+	background-color:black;				/* fekete h├ítt├ęrsz├şn*/
+	padding:20px;						/* bels┼Ĺ kit├Âlt├ęs */
+	margin:0;							/* marg├│ lenull├íz├ísa */ 
+		}
+
+/* 2-es c├şmsorok megjelen├ęs├ęnek be├íll├şt├ísa */
+h2, h3 {
+	padding:20px;		/* bels┼Ĺ kit├Âlt├ęs */
+	color:black;		/* s├Ât├ętv├Âr├Âs sz├Âvegsz├şn*/
+	text-shadow:5px 5px lightblue;	/* sz├╝rke sz├Âveg├írny├ęk be├íll├şt├ísa*/
+}
+
+/*A fontos oszt├ílyba tartoz├│ bekezd├ęsek megjelen├ęs├ęnek be├íll├şt├ísa */
+p.fontos {
+	padding-top:20px;		/* bels┼Ĺ kit├Âlt├ęs fel├╝l */
+	padding-right:20px;		/* bels┼Ĺ kit├Âlt├ęs jobb oldalon */
+	padding-bottom:20px;	/* bels┼Ĺ kit├Âlt├ęs alul */
+	padding-left:60px;		/* bels┼Ĺ kit├Âlt├ęs bal oldalon */
+	margin-right:40px;		/* marg├│ jobb oldalon */
+	background-color:lightblue;	/* s├Ât├ętv├Âr├Âs h├ítt├ęrsz├şn*/
+	color:white;				/* feh├ęr sz├Âvegsz├şn*/
+	background-image:url('../kepek/mancs.png');	/* h├ítt├ęrk├ęp be├íll├şt├ísa*/
+	background-repeat:no-repeat;	/* ne ism├ętl┼Ĺdj├Ân a h├ítt├ęrk├ęp*/
+	background-position:0 20px;		/* a h├ítt├ęrk├ęp poz├şci├│ja */
+	width:40%;				/* sz├ęless├ęg be├íll├şt├ísa */
+	float:right;			/* jobbra lebeg az elem, vagyis a t├Âbbi elem balr├│l veszi k├Ârbe */
+	transform:rotate(2deg); /* elforgat├ís */
+	border-radius:10px;		/* szeg├ęly lekerek├şt├ęse*/
+	}
+
+/*A menu oszt├ílyba tartoz├│ bekezd├ęsek megjelen├ęs├ęnek be├íll├şt├ísa */
+p.menu {
+	text-align:center;		/* sz├Âveg k├Âz├ępre igaz├şt├ísa*/
+	padding:20px;			/* bels┼Ĺ kit├Âlt├ęs*/
+	font-weight:bold;		/* f├ęlk├Âv├ęr megjelen├ęs*/
+	font-size:130%;			/* bet┼▒ m├ęrete */
+}
+
+/*A hivatkoz├ísok megjelen├ęs├ęnek be├íll├şt├ísa */
+a {font-style:italic;}  	/* d┼Ĺlt bet┼▒s megjelen├ęs*/
+
+/*A k├ępfeliratok megjelen├ęs├ęnek be├íll├şt├ísa */
+figcaption {
+	text-align:center;		/* sz├Âveg k├Âz├ępre igaz├şt├ísa*/
+	color:white;			/* feh├ęr sz├Âvegsz├şn*/
+	font-weight:bold;		/* f├ęlk├Âv├ęr megjelen├ęs*/
+	}
+	
+/*Az illusztr├íci├│k megjelen├ęs├ęnek be├íll├şt├ísa */
+figure {
+	width:70%; 					/* sz├ęless├ęg be├íll├şt├ísa */
+	max-width:1050px;			/* maxim├ílis sz├ęless├ęg be├íll├şt├ísa */
+	padding-top:10px;			/* bels┼Ĺ kit├Âlt├ęs fel├╝l */
+	padding-right:0;			/* bels┼Ĺ kit├Âlt├ęs jobb oldalon */
+	padding-bottom:10px;		/* bels┼Ĺ kit├Âlt├ęs alul */
+	padding-left:10px;			/* bels┼Ĺ kit├Âlt├ęs bal oldalon */
+	text-align:center;			/* sz├Âveg k├Âz├ępre igaz├şt├ísa*/
+	margin-left:auto;			/* bal ├ęs jobb marg├│ 'auto' be├íll├şt├ísa k├Âz├ępre igaz├şt├íst jelent */
+	margin-right:auto;
+	margin-bottom:30px;			/* als├│ marg├│ be├íll├şt├ísa */
+	background-color:lightblue;	/* s├Ât├ętsz├╝rke h├ítt├ęrsz├şn be├íll├şt├ísa*/
+		/* elforgat├ís 2 fokkal*/
+	border-radius:30px;			/* szeg├ęly lekerek├şt├ęse*/
+	}
+	
+/*A k├ępek megjelen├ęs├ęnek be├íll├şt├ísa */
+img {
+	width:45%; 					/* sz├ęless├ęg be├íll├şt├ísa */
+	height:auto;				/* magass├íg be├íll├şt├ísa */
+	border:4px solid white;		/* szeg├ęly legyen vastagabb, feh├ęr*/
+	border-radius:60px;			/* szeg├ęly lekerek├şt├ęse*/
+	margin-right:10px;			/*jobb marg├│	*/
+			}	
+/*A vide├│k megjelen├ęs├ęnek be├íll├şt├ísa */
+video {
+	width:70%; 				/* sz├ęless├ęg be├íll├şt├ísa */
+	max-width:800px;		/* maxim├ílis sz├ęless├ęg be├íll├şt├ísa */
+	display:block;			/* a megjelen├ęs blokkszint┼▒ legyen. Emiatt t├ęrk├Âz lesz alatta ├ęs felette. */
+	margin-left:auto;		/* bal ├ęs jobb marg├│ 'auto' be├íll├şt├ísa k├Âz├ępre igaz├şt├íst jelent */
+	margin-right:auto;
+	}
+		
+/* Azon link tulajdons├íg├ínak be├íll├şt├ísa, amely az oldal elej├ęre ugrik */	
+a[href="#eleje"] {
+	display:block; 		/* a megjelen├ęs blokkszint┼▒ legyen. Emiatt t├ęrk├Âz lesz alatta ├ęs felette. */
+	text-align:right;	/* sz├Âveg jobbra igaz├şt├ísa*/
+	margin-right:30px;	/* jobb oldali marg├│*/
+	}
+
+/*A t├íbl├ízatok megjelen├ęs├ęnek be├íll├şt├ísa */
+table {
+	border-collapse:collapse;	/* a szomsz├ędos szeg├ęlyek ├Âsszevon├ísa */
+	border:3px solid black;		/* szeg├ęly be├íll├şt├ísa*/ 
+	width:90%;					/* sz├ęless├ęg be├íll├şt├ísa*/
+	max-width:800px;			/* maxim├ílis sz├ęless├ęg */
+    margin-left:auto;			/* bal ├ęs jobb marg├│ 'auto' be├íll├şt├ísa k├Âz├ępre igaz├şt├íst jelent */
+	margin-right:auto;
+	}	
+
+/*Adatcell├ík ├ęs fejl├ęc cell├ík megjelen├ęs├ęnek be├íll├şt├ísai*/
+td,th {
+	border:1px solid black;		/* v├ękony, fekete szeg├ęly*/
+	padding:20px;				/* bels┼Ĺ kit├Âlt├ęs*/ 
+	}	
+
+/* Fejl├ęc cella be├íll├şt├ísa */
+th {
+	background-color:lightblue;   /* s├Ât├ętv├Âr├Âs h├ítt├ęr*/
+	color:white;				/* feh├ęr sz├Âvegsz├şn */
+}
+
+/*A p├íratlan t├íbl├ízatsorok tulajdons├ígai*/
+tr:nth-child(odd) {background-color:lightgray;}  /* vil├ígossz├╝rke h├ítt├ęr*/
+
+/*A t├íbl├ízat felirat megjelen├ęse*/
+caption {
+	background-color:black;	/* fekete h├ítt├ęrsz├şn*/
+	color:white;			/* feh├ęr sz├Âvegsz├şn*/
+	padding:10px;			/* bels┼Ĺ kit├Âlt├ęs*/
+	}
+
+
+/* Ha a b├Âng├ęsz┼Ĺ sz├ęless├ęge 1000 k├ęppont alatti */
+@media screen and (max-width:1000px) {
+	
+/*A fontos oszt├ílyba tartoz├│ bekezd├ęs megjelen├ęse*/
+	p.fontos {
+		float:none;				/* lebegtet├ęs letilt├ísa*/
+		width:75%;				/* sz├ęless├ęg 75% */
+		margin-top:0;			/* fels┼Ĺ marg├│*/
+		margin-right:0;			/* jobb oldali marg├│*/
+		margin-bottom:0;		/* als├│ marg├│*/
+		margin-left:10px;		/* bal oldali marg├│*/
+		transform:rotate(0);	/* ne legyen elforgatva*/
+		font-size:120%;			/* bet┼▒m├ęret be├íll├şt├ísa*/
+		}
+		
+	/* A dokumentumt├Ârzs megjelen├ęs├ęnek be├íll├şt├ísa*/
+	body {width:90%;}           /* sz├ęless├ęg be├íll├şt├ísa*/
+}
+	
